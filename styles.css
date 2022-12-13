@@ -14,3 +14,65 @@ body {
     box-sizing: border-box;
     font-family: "League Spartan", sans-serif;
 }
+
+main {
+    width: 100%;
+    height: 100vh;
+}
+
+.top-section {
+    display: flex;
+}
+
+.title {
+    font-size: 3rem;
+    width: 310px;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    width: 440px;
+    line-height: 1.6rem;
+}
+
+.rateds-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 3rem;
+    margin-left: 4rem;
+}
+
+.second {
+    margin-left: 3rem;
+}
+
+.third {
+    margin-left: 6rem;
+}
+
+.stars-container {
+    width: 420px;
+    height: 45px;
+    background-color: antiquewhite;
+}
+
+.cards-container {
+    margin-top: 2rem;
+    display: flex;
+    gap: 3rem;
+}
+
+.testimonial-card {
+    width: 300px;
+    height: 200px;
+    background-color: rgb(167, 117, 214);
+}
+
+._second {
+    margin-top: 1rem;
+}
+
+._third {
+    margin-top: 2rem;
+}
