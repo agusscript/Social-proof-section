@@ -13,11 +13,20 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: "League Spartan", sans-serif;
+    background-image: url(images/bg-pattern-top-desktop.svg);
+    background-repeat: no-repeat;
 }
 
 main {
     width: 100%;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-position-x: 280px;
+    background-position-y: 80px;
 }
 
 .top-section {
@@ -25,48 +34,93 @@ main {
 }
 
 .title {
-    font-size: 3rem;
-    width: 310px;
+    font-size: 3.4rem;
+    width: 330px;
+    letter-spacing: -0.5mm;
+    line-height: 2.8rem;
+    color: var(--Very-Dark-Magenta);
 }
 
 .subtitle {
     font-size: 1.1rem;
-    width: 440px;
-    line-height: 1.6rem;
+    width: 400px;
+    line-height: 1.4rem;
+    font-weight: 500;
+    letter-spacing: -0.1mm;
+    color: var(--Dark-Grayish-Magenta);
 }
 
 .rateds-container {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-    margin-top: 3rem;
-    margin-left: 4rem;
+    gap: 1rem;
+    padding-top: 3.6rem;
+    padding-left: 7rem;
+}
+
+.stars-container {
+    width: 400px;
+    height: 52px;
+    background-color: var(--Light-Grayish-Magenta);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 0.5rem;
+}
+
+.stars-container img {
+    padding: 0 1px;
+}
+
+.stars-container span {
+    color: var(--Very-Dark-Magenta);
+    font-weight: 700;
+    margin-right: 2.2rem;
+}
+
+.first div {
+    margin-left: 1rem;
+}
+
+.first span {
+    margin-right: 3.6rem;
 }
 
 .second {
     margin-left: 3rem;
 }
 
+.second div {
+    margin-left: 1rem;
+}
+
 .third {
     margin-left: 6rem;
 }
 
-.stars-container {
-    width: 420px;
-    height: 45px;
-    background-color: antiquewhite;
+.third div {
+    margin-left: 1rem;
+}
+
+.third span {
+    padding-right: 2rem;
 }
 
 .cards-container {
     margin-top: 2rem;
     display: flex;
-    gap: 3rem;
+    gap: 1.7rem;
 }
 
 .testimonial-card {
-    width: 300px;
-    height: 200px;
-    background-color: rgb(167, 117, 214);
+    width: 320px;
+    height: 210px;
+    background-color: var(--Very-Dark-Magenta);
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 ._second {
@@ -76,3 +130,39 @@ main {
 ._third {
     margin-top: 2rem;
 }
+
+.header-testimonial-card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 3.5rem;
+}
+
+.header-testimonial-card img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.header-testimonial-card div {
+    line-height: 0.1px;
+    margin-left: 1.6rem;
+}
+
+.header-testimonial-card h4 {
+   color: var(--white);
+   font-size: 0.9rem;
+}
+
+.header-testimonial-card p {
+    color: var(--Soft-Pink);
+    font-size: 0.9rem;
+ }
+
+ .testimonial {
+    color: var(--white);
+    max-width: 82%;
+    line-height: 1.3rem;
+    font-size: 0.95rem;
+ }
