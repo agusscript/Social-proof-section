@@ -394,3 +394,108 @@ main {
         font-size: 1.1rem;
      }
  }
+
+ @media(max-width: 520px){
+    .title {
+        font-size: 3.2rem;
+        width: 380px;
+    }
+    
+    .subtitle {
+        font-size: 1.1rem;
+        width: 380px;
+    }
+    
+    .stars-container {
+        width: 380px;
+        height: 86px;
+        flex-direction: column;
+    }
+
+    .stars-container img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .stars-container span {
+        margin-right: 0;
+    }
+    
+    .testimonial-card {
+        width: 380px;
+        height: 200px;
+    }
+
+    .testimonial {
+        max-width: 85%;
+        font-size: 1rem;
+     }
+ }
+
+ @media(max-width: 460px){
+    .title {
+        font-size: 3rem;
+        width: 300px;
+    }
+    
+    .subtitle {
+        font-size: 1.08rem;
+        width: 300px;
+    }
+    
+    .rateds-container {
+        gap: 1rem;
+    }
+    
+    .stars-container {
+        width: 340px;
+        height: 78px;
+    }
+
+    .stars-container img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .cards-container {
+        margin-top: 2rem;
+        gap: 1rem;
+    }
+    
+    .testimonial-card {
+        width: 340px;
+        height: 200px;
+    }
+ }
+
+ @media(max-width: 360px){
+    .title {
+        font-size: 3rem;
+        width: 280px;
+    }
+    
+    .subtitle {
+        font-size: 1.06rem;
+        width: 280px;
+    }
+    
+    .stars-container {
+        width: 280px;
+        height: 78px;
+    }
+
+    .stars-container img {
+        width: 18px;
+        height: 18px;
+    }
+    
+    .testimonial-card {
+        width: 280px;
+        height: 200px;
+    }
+
+    .testimonial {
+        max-width: 80%;
+        font-size: 0.9rem;
+     }
+ }
